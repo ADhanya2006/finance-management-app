@@ -1,5 +1,5 @@
 import streamlit as st
-from supabase_client import supabase
+from supabase import create_client, Client
 import pandas as pd
 
 st.set_page_config(page_title="Dashboard", layout="wide")
