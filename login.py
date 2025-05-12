@@ -1,5 +1,5 @@
 import streamlit as st
-from supabase import create_client, Client
+from supabase_client import supabase
 
 st.set_page_config(page_title="Login", layout="centered")
 st.title("🔐 Finance App Login")
