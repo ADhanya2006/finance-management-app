@@ -1,5 +1,4 @@
 streamlit
 pandas
 supabase-py
-pip freeze > requirements.txt
-
+python-dotenv
